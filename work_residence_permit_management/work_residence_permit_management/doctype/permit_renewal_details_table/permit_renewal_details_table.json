@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-11 22:07:31.302796",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "permit_number",
+  "date_of_issue",
+  "place_of_issue",
+  "date_of_expiry"
+ ],
+ "fields": [
+  {
+   "fieldname": "permit_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Permit Number"
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Issue"
+  },
+  {
+   "fieldname": "place_of_issue",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Place of Issue"
+  },
+  {
+   "fieldname": "date_of_expiry",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Expiry"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-11 22:07:31.302796",
+ "modified_by": "Administrator",
+ "module": "Work Residence Permit Management",
+ "name": "Permit Renewal Details Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

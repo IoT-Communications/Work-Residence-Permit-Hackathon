@@ -1,0 +1,52 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-12 12:43:45.966773",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_trainee",
+  "educational_qualifications",
+  "job_experience",
+  "training_duration"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_trainee",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name of Trainee"
+  },
+  {
+   "fieldname": "educational_qualifications",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Educational Qualifications"
+  },
+  {
+   "fieldname": "job_experience",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Job Experience"
+  },
+  {
+   "fieldname": "training_duration",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Training Duration"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-12 12:57:36.510470",
+ "modified_by": "Administrator",
+ "module": "Work Residence Permit Management",
+ "name": "Trainees Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

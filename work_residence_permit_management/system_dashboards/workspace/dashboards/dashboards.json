@@ -1,0 +1,54 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"Y5L_TSYaQ5\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboards</span>\",\"col\":12}},{\"id\":\"azi5yMG536\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Residence Permits Dashboard\",\"col\":4}},{\"id\":\"qL8-7fXejk\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Work Permits Dashboard\",\"col\":4}},{\"id\":\"_pnPv1YvSz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Recruiters License Dashboard\",\"col\":4}}]",
+ "creation": "2023-06-13 10:35:42.076062",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "crm",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Dashboards",
+ "links": [],
+ "modified": "2023-06-13 14:43:13.588558",
+ "modified_by": "Administrator",
+ "module": "System Dashboards",
+ "name": "Dashboards",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Officer"
+  }
+ ],
+ "sequence_id": 6.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Recruiters License Dashboard",
+   "link_to": "Recruiters License Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Residence Permits Dashboard",
+   "link_to": "Residence Permits Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Work Permits Dashboard",
+   "link_to": "Work Permits Dashboard",
+   "type": "Dashboard"
+  }
+ ],
+ "title": "Dashboards"
+}

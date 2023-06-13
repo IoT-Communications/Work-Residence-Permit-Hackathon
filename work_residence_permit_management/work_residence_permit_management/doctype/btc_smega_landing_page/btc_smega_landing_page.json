@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-12 13:34:16.422795",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "logo_html",
+  "sender_details_section",
+  "name1",
+  "number",
+  "permit_details_section",
+  "permit_number",
+  "application_fee",
+  "section_break_xwhci",
+  "pay"
+ ],
+ "fields": [
+  {
+   "fieldname": "logo_html",
+   "fieldtype": "HTML",
+   "label": "Logo HTML",
+   "options": "<img height=\"184\" src=\"https://iotcomms.co.bw/api/paymentGateway/smega.jpg\" width=\"200\">"
+  },
+  {
+   "fieldname": "sender_details_section",
+   "fieldtype": "Section Break",
+   "label": "Sender Details"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "number",
+   "fieldtype": "Data",
+   "label": "Number"
+  },
+  {
+   "fieldname": "permit_details_section",
+   "fieldtype": "Section Break",
+   "label": "Permit Details"
+  },
+  {
+   "fieldname": "permit_number",
+   "fieldtype": "Data",
+   "label": "Permit Number"
+  },
+  {
+   "fieldname": "application_fee",
+   "fieldtype": "Data",
+   "label": "Application Fee"
+  },
+  {
+   "fieldname": "section_break_xwhci",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pay",
+   "fieldtype": "Button",
+   "label": "Pay"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-12 13:34:34.553813",
+ "modified_by": "Administrator",
+ "module": "Work Residence Permit Management",
+ "name": "BTC Smega Landing Page",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

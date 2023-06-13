@@ -1,0 +1,616 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-06-12 06:16:53.643038",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "posting_date",
+  "permit_details_tab",
+  "line_break_0",
+  "permit_application_type",
+  "column_break_rptyi",
+  "line_break_1",
+  "state_the_period_for_which_a_permit_is_sought",
+  "permit_renewal_details_section",
+  "permit_renewal_table",
+  "section_break_rn8i2",
+  "state_the_job_that_has_been_offered_to_you",
+  "applicant_details_tab",
+  "line_break_2",
+  "full_name",
+  "marital_status",
+  "date_of_birth",
+  "column_break_n0atc",
+  "line_break_3",
+  "gender",
+  "country_of_birth",
+  "place_of_birth",
+  "passport_details_section",
+  "passport_number",
+  "place_of_issue",
+  "column_break_cqur3",
+  "date_of_issue",
+  "nationality",
+  "education_background_section",
+  "educational_background_table",
+  "relevant_work_experience_section",
+  "years_of_relevant_work_experience",
+  "column_break_cwyuk",
+  "attach_reference",
+  "previous_botswana_employment_record_section",
+  "employment_record",
+  "employer_details_tab",
+  "employer_full_name",
+  "employer_address",
+  "column_break_x9m3r",
+  "employer_telephone",
+  "type_of_goods_or_services_provided_by_the_employer",
+  "details_of_position_to_be_filled_by_applicant_section",
+  "job_title",
+  "job_description",
+  "column_break_x2se5",
+  "has_the_vacancy_been_advertised",
+  "if_yes_please_attach_copy_of_advertisement",
+  "remuneration_section",
+  "basic_pay",
+  "inducement_allowance",
+  "settlement_allowance",
+  "housing_allowance",
+  "water_electricity_subsidy",
+  "transport_subsidy",
+  "column_break_hbgyo",
+  "bonus",
+  "education_allowance",
+  "leave_expenses_days",
+  "medical_aid",
+  "pension",
+  "gratuity",
+  "local_recruitment_details_section",
+  "difficulties_in_securing_local_recruitment",
+  "labour_department_consultation",
+  "local_citizens_in_establishment",
+  "manpower_development_tab",
+  "line_break_4",
+  "details_of_trainees",
+  "name_of_trainee_most_likely_to_take_over_section",
+  "at_the_expiry_of_the_permit",
+  "in_the_long_term",
+  "column_break_u8kt4",
+  "date_of_localization",
+  "in_case_of_renewal_state_reasons_why_trainee_cannot_take_over",
+  "declaration_tab",
+  "line_break_5",
+  "i_declare_that_the_information_provided_is_true_and_correct",
+  "column_break_ppfhv",
+  "line_break_6",
+  "signature",
+  "payment_details_section",
+  "application_fee",
+  "payment_gateway",
+  "currency",
+  "payment_url",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Application Number",
+   "options": "WPA-.MM.-.YYYY.-.#####"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Work Permit Application",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "permit_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Permit Details"
+  },
+  {
+   "fieldname": "permit_application_type",
+   "fieldtype": "Select",
+   "label": "Permit Application Type",
+   "options": "\nNew Permit\nRenewal of Existing Permit"
+  },
+  {
+   "fieldname": "permit_renewal_details_section",
+   "fieldtype": "Section Break",
+   "label": "Permit Renewal Details"
+  },
+  {
+   "fieldname": "permit_renewal_table",
+   "fieldtype": "Table",
+   "label": "Details of Existing Permits",
+   "options": "Permit Renewal Details Table"
+  },
+  {
+   "fieldname": "section_break_rn8i2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "applicant_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Applicant Details"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "state_the_job_that_has_been_offered_to_you",
+   "fieldtype": "Small Text",
+   "label": "State the job that has been offered to you",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "column_break_n0atc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "country_of_birth",
+   "fieldtype": "Link",
+   "label": "Country of Birth",
+   "options": "Country"
+  },
+  {
+   "fieldname": "place_of_birth",
+   "fieldtype": "Data",
+   "label": "Place of Birth"
+  },
+  {
+   "fieldname": "line_break_2",
+   "fieldtype": "HTML",
+   "label": "Line Break 2",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_3",
+   "fieldtype": "HTML",
+   "label": "Line Break 3",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "education_background_section",
+   "fieldtype": "Section Break",
+   "label": "Education Background"
+  },
+  {
+   "fieldname": "educational_background_table",
+   "fieldtype": "Table",
+   "options": "Educational Background Table"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "label": "Marital Status",
+   "options": "\nSingle\nMarried\nDivorced\nWidowed"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale\nOther"
+  },
+  {
+   "fieldname": "passport_details_section",
+   "fieldtype": "Section Break",
+   "label": "Passport Details"
+  },
+  {
+   "fieldname": "passport_number",
+   "fieldtype": "Data",
+   "label": "Passport Number"
+  },
+  {
+   "fieldname": "place_of_issue",
+   "fieldtype": "Data",
+   "label": "Place of Issue"
+  },
+  {
+   "fieldname": "column_break_cqur3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "label": "Date of Issue"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Link",
+   "label": "Nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "relevant_work_experience_section",
+   "fieldtype": "Section Break",
+   "label": "Relevant Work Experience"
+  },
+  {
+   "fieldname": "years_of_relevant_work_experience",
+   "fieldtype": "Data",
+   "label": "Years of relevant work experience",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "column_break_cwyuk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attach_reference",
+   "fieldtype": "Attach",
+   "label": "Attach Reference"
+  },
+  {
+   "fieldname": "previous_botswana_employment_record_section",
+   "fieldtype": "Section Break",
+   "label": "Previous Botswana Employment Record"
+  },
+  {
+   "fieldname": "employment_record",
+   "fieldtype": "Table",
+   "options": "Employment Record Table"
+  },
+  {
+   "fieldname": "employer_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Employer Details"
+  },
+  {
+   "fieldname": "employer_full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "employer_address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "employer_telephone",
+   "fieldtype": "Data",
+   "label": "Telephone Number"
+  },
+  {
+   "fieldname": "type_of_goods_or_services_provided_by_the_employer",
+   "fieldtype": "Small Text",
+   "label": "Type of goods or services provided by the employer",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "column_break_x9m3r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "details_of_position_to_be_filled_by_applicant_section",
+   "fieldtype": "Section Break",
+   "label": "Details of Position to be Filled by Applicant"
+  },
+  {
+   "fieldname": "job_title",
+   "fieldtype": "Data",
+   "label": "Job Title"
+  },
+  {
+   "fieldname": "column_break_x2se5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "job_description",
+   "fieldtype": "Small Text",
+   "label": "Job Description",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "remuneration_section",
+   "fieldtype": "Section Break",
+   "label": "Remuneration"
+  },
+  {
+   "fieldname": "basic_pay",
+   "fieldtype": "Currency",
+   "label": "Basic Pay"
+  },
+  {
+   "fieldname": "inducement_allowance",
+   "fieldtype": "Currency",
+   "label": "Inducement Allowance"
+  },
+  {
+   "fieldname": "settlement_allowance",
+   "fieldtype": "Currency",
+   "label": "Settlement Allowance"
+  },
+  {
+   "fieldname": "housing_allowance",
+   "fieldtype": "Currency",
+   "label": "Housing Allowance"
+  },
+  {
+   "fieldname": "water_electricity_subsidy",
+   "fieldtype": "Currency",
+   "label": "Water / Electricity Subsidy"
+  },
+  {
+   "fieldname": "transport_subsidy",
+   "fieldtype": "Currency",
+   "label": "Transport Subsidy"
+  },
+  {
+   "fieldname": "column_break_hbgyo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bonus",
+   "fieldtype": "Currency",
+   "label": "Bonus"
+  },
+  {
+   "fieldname": "education_allowance",
+   "fieldtype": "Currency",
+   "label": "Education Allowance"
+  },
+  {
+   "fieldname": "leave_expenses_days",
+   "fieldtype": "Data",
+   "label": "Leave Expenses (Days)"
+  },
+  {
+   "fieldname": "medical_aid",
+   "fieldtype": "Currency",
+   "label": "Medical Aid"
+  },
+  {
+   "fieldname": "pension",
+   "fieldtype": "Currency",
+   "label": "Pension"
+  },
+  {
+   "fieldname": "gratuity",
+   "fieldtype": "Currency",
+   "label": "Gratuity"
+  },
+  {
+   "fieldname": "column_break_rptyi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "state_the_period_for_which_a_permit_is_sought",
+   "fieldtype": "Data",
+   "label": "State the period for which a permit is sought"
+  },
+  {
+   "fieldname": "line_break_0",
+   "fieldtype": "HTML",
+   "label": "Line Break 0",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_1",
+   "fieldtype": "HTML",
+   "label": "Line Break 1",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "has_the_vacancy_been_advertised",
+   "fieldtype": "Select",
+   "label": "Has the vacancy been advertised?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "if_yes_please_attach_copy_of_advertisement",
+   "fieldtype": "Attach",
+   "label": "If yes, please attach copy of advertisement"
+  },
+  {
+   "fieldname": "manpower_development_tab",
+   "fieldtype": "Tab Break",
+   "label": "Manpower Development"
+  },
+  {
+   "fieldname": "details_of_trainees",
+   "fieldtype": "Table",
+   "label": "Details of Trainees",
+   "options": "Trainees Table"
+  },
+  {
+   "fieldname": "line_break_4",
+   "fieldtype": "HTML",
+   "label": "Line Break 4",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "name_of_trainee_most_likely_to_take_over_section",
+   "fieldtype": "Section Break",
+   "label": "Trainee Most Likely to Take Over"
+  },
+  {
+   "fieldname": "at_the_expiry_of_the_permit",
+   "fieldtype": "Data",
+   "label": "(i) At the Expiry of the Permit"
+  },
+  {
+   "fieldname": "in_the_long_term",
+   "fieldtype": "Data",
+   "label": "(ii) In the Long Term"
+  },
+  {
+   "fieldname": "date_of_localization",
+   "fieldtype": "Date",
+   "label": "(iii) Date of Localization"
+  },
+  {
+   "fieldname": "column_break_u8kt4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "local_recruitment_details_section",
+   "fieldtype": "Section Break",
+   "label": "Local Recruitment Details"
+  },
+  {
+   "fieldname": "in_case_of_renewal_state_reasons_why_trainee_cannot_take_over",
+   "fieldtype": "Small Text",
+   "label": "(iv) In case of renewal, state reasons why trainee cannot take over",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "difficulties_in_securing_local_recruitment",
+   "fieldtype": "Small Text",
+   "label": "What are your main difficulties in securing local recruitment for this post",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "labour_department_consultation",
+   "fieldtype": "Small Text",
+   "label": "Have you made enquiries with Labour Department on the availability of a suitable citizen for the job",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "local_citizens_in_establishment",
+   "fieldtype": "Data",
+   "label": "State number of locals or Botswana citizens in your establishment"
+  },
+  {
+   "fieldname": "declaration_tab",
+   "fieldtype": "Tab Break",
+   "label": "Declaration"
+  },
+  {
+   "fieldname": "line_break_5",
+   "fieldtype": "HTML",
+   "label": "Line Break 5",
+   "options": "<br>"
+  },
+  {
+   "default": "0",
+   "fieldname": "i_declare_that_the_information_provided_is_true_and_correct",
+   "fieldtype": "Check",
+   "label": " I declare that the information provided is true and correct"
+  },
+  {
+   "fieldname": "column_break_ppfhv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "line_break_6",
+   "fieldtype": "HTML",
+   "label": "Line Break 6",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Application Date"
+  },
+  {
+   "fieldname": "payment_details_section",
+   "fieldtype": "Section Break",
+   "label": "Payment Details"
+  },
+  {
+   "default": "600",
+   "fieldname": "application_fee",
+   "fieldtype": "Currency",
+   "label": "Application Fee"
+  },
+  {
+   "default": "Stripe-IoT Communications",
+   "fieldname": "payment_gateway",
+   "fieldtype": "Link",
+   "label": "Payment Gateway",
+   "options": "Payment Gateway"
+  },
+  {
+   "default": "BWP",
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "payment_url",
+   "fieldtype": "Small Text",
+   "label": "Payment Url"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-06-13 11:28:04.977492",
+ "modified_by": "Administrator",
+ "module": "Work Permit",
+ "name": "Work Permit Application",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Officer",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Applicant",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

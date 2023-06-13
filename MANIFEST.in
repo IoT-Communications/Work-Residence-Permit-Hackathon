@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include work_residence_permit_management *.css
+recursive-include work_residence_permit_management *.csv
+recursive-include work_residence_permit_management *.html
+recursive-include work_residence_permit_management *.ico
+recursive-include work_residence_permit_management *.js
+recursive-include work_residence_permit_management *.json
+recursive-include work_residence_permit_management *.md
+recursive-include work_residence_permit_management *.png
+recursive-include work_residence_permit_management *.py
+recursive-include work_residence_permit_management *.svg
+recursive-include work_residence_permit_management *.txt
+recursive-exclude work_residence_permit_management *.pyc

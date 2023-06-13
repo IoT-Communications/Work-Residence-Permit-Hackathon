@@ -1,0 +1,720 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-06-11 17:24:37.982294",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "posting_date",
+  "section_break_umx7z",
+  "line_break_1",
+  "permit_application_type",
+  "column_break_a0ktk",
+  "line_break_2",
+  "state_the_period_for_which_a_permit_is_sought",
+  "permit_renewal_details_section",
+  "permit_renewal_table",
+  "section_break_56xdq",
+  "give_reasons_for_applying_for_a_permit",
+  "section_break_cayot",
+  "do_you_propose_to_take_up_employment_in_botswana",
+  "column_break_qgfnn",
+  "if_so_please_complete_the_application_for_work_permit",
+  "section_break_y5smj",
+  "if_not_what_are_your_reasons_for_applying_for_residence_permit",
+  "applicant_details_section",
+  "line_break_3",
+  "full_name",
+  "user",
+  "email",
+  "marital_status",
+  "date_of_birth",
+  "column_break_hcsbj",
+  "line_break_4",
+  "gender",
+  "country_of_birth",
+  "place_of_birth",
+  "passport_details_section",
+  "passport_number",
+  "place_of_issue",
+  "column_break_t7uge",
+  "date_of_issue",
+  "nationality",
+  "section_break_kimx6",
+  "present_nationality",
+  "previous_nationality",
+  "column_break_2vsbk",
+  "present_postal_address",
+  "present_residential_address",
+  "section_break_bntgv",
+  "language_literacy",
+  "countries_of_residence_in_the_last_10_years_section",
+  "country_table",
+  "details_of_arrival_and_entry_in_botswana_section",
+  "date_of_arrival",
+  "column_break_ffzmn",
+  "port_border_of_entry",
+  "section_break_z6bd4",
+  "photo",
+  "column_break_dsmz3",
+  "birth_certificate",
+  "column_break_xhi8t",
+  "medical_report",
+  "spouse_details_tab",
+  "line_break_5",
+  "spouse_full_name",
+  "spouse_date_of_birth",
+  "spouse_country_of_birth",
+  "spouse_place_of_birth",
+  "column_break_qdspi",
+  "line_break_6",
+  "spouse_nationality",
+  "spouse_passport_number",
+  "spouse_place_of_issue",
+  "spouse_date_of_issue",
+  "section_break_ht7io",
+  "countries_of_residence_in_the_last_10_years",
+  "is_spouse_applying_for_residence_in_botswana",
+  "section_break_fgbbw",
+  "marriage_certificate",
+  "particulars_of_children_section",
+  "particulars_of_children",
+  "section_break_ovkqg",
+  "line_break_7",
+  "section_break_gf4ka",
+  "prohibited_or_not",
+  "column_break_enlnd",
+  "prohibited_particulars",
+  "section_break_no7ht",
+  "imprisonment",
+  "column_break_kmokr",
+  "imprisonment_particulars",
+  "section_break_h0j3y",
+  "line_break_8",
+  "how_do_you_intend_to_support_yourself_and_your_dependants",
+  "column_break_ijqfl",
+  "line_break_9",
+  "attach_proof",
+  "declaration_section",
+  "line_break_10",
+  "declaration",
+  "column_break_ptlm0",
+  "line_break_11",
+  "signature",
+  "payment_details_section",
+  "application_fee",
+  "payment_gateway",
+  "currency",
+  "payment_url",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Residence Permit Application",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "permit_application_type",
+   "fieldtype": "Select",
+   "label": "Permit Application Type",
+   "options": "\nNew Permit\nRenewal of Existing Permit"
+  },
+  {
+   "fieldname": "applicant_details_section",
+   "fieldtype": "Tab Break",
+   "label": "Applicant Details"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "label": "Marital Status",
+   "options": "\nSingle\nMarried\nDivorced\nWidowed"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale\nOther"
+  },
+  {
+   "fieldname": "country_of_birth",
+   "fieldtype": "Link",
+   "label": "Country of Birth",
+   "options": "Country"
+  },
+  {
+   "fieldname": "place_of_birth",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Place of Birth"
+  },
+  {
+   "fieldname": "passport_details_section",
+   "fieldtype": "Section Break",
+   "label": "Passport Details"
+  },
+  {
+   "fieldname": "passport_number",
+   "fieldtype": "Data",
+   "label": "Passport Number"
+  },
+  {
+   "fieldname": "place_of_issue",
+   "fieldtype": "Data",
+   "label": "Place of Issue"
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "label": "Date of Issue"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Link",
+   "label": "Nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "spouse_passport_number",
+   "fieldtype": "Data",
+   "label": "Passport Number"
+  },
+  {
+   "fieldname": "spouse_place_of_issue",
+   "fieldtype": "Data",
+   "label": "Place of Issue"
+  },
+  {
+   "fieldname": "spouse_date_of_issue",
+   "fieldtype": "Date",
+   "label": "Date of Issue"
+  },
+  {
+   "fieldname": "spouse_nationality",
+   "fieldtype": "Link",
+   "label": "Nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "column_break_hcsbj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "present_nationality",
+   "fieldtype": "Link",
+   "label": "Present Nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "section_break_kimx6",
+   "fieldtype": "Section Break",
+   "label": "Nationality & Address"
+  },
+  {
+   "fieldname": "previous_nationality",
+   "fieldtype": "Link",
+   "label": "Previous Nationality",
+   "options": "Country"
+  },
+  {
+   "fieldname": "present_postal_address",
+   "fieldtype": "Data",
+   "label": "Present Postal Address"
+  },
+  {
+   "fieldname": "present_residential_address",
+   "fieldtype": "Data",
+   "label": "Present Residential Address"
+  },
+  {
+   "fieldname": "language_literacy",
+   "fieldtype": "Table",
+   "options": "Language Literacy Table"
+  },
+  {
+   "fieldname": "column_break_2vsbk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_bntgv",
+   "fieldtype": "Section Break",
+   "label": "Language Literacy"
+  },
+  {
+   "fieldname": "countries_of_residence_in_the_last_10_years_section",
+   "fieldtype": "Section Break",
+   "label": "Countries of Residence in the Last 10 Years"
+  },
+  {
+   "fieldname": "country_table",
+   "fieldtype": "Table",
+   "options": "Country Table"
+  },
+  {
+   "fieldname": "details_of_arrival_and_entry_in_botswana_section",
+   "fieldtype": "Section Break",
+   "label": "Details of Arrival or Entry in Botswana"
+  },
+  {
+   "fieldname": "date_of_arrival",
+   "fieldtype": "Date",
+   "label": "Date of Arrival"
+  },
+  {
+   "fieldname": "column_break_ffzmn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "port_border_of_entry",
+   "fieldtype": "Data",
+   "label": "Port/Border of Entry"
+  },
+  {
+   "fieldname": "spouse_full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "spouse_date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "spouse_country_of_birth",
+   "fieldtype": "Link",
+   "label": "Country of Birth",
+   "options": "Country"
+  },
+  {
+   "fieldname": "spouse_place_of_birth",
+   "fieldtype": "Data",
+   "label": "Place of Birth"
+  },
+  {
+   "fieldname": "countries_of_residence_in_the_last_10_years",
+   "fieldtype": "Table",
+   "options": "Country Table"
+  },
+  {
+   "fieldname": "column_break_qdspi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_fgbbw",
+   "fieldtype": "Section Break",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "is_spouse_applying_for_residence_in_botswana",
+   "fieldtype": "Select",
+   "label": "Is spouse applying for residence in Botswana?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "particulars_of_children",
+   "fieldtype": "Table",
+   "options": "Children Particulars Table"
+  },
+  {
+   "fieldname": "particulars_of_children_section",
+   "fieldtype": "Tab Break",
+   "label": "Children Details"
+  },
+  {
+   "fieldname": "section_break_ovkqg",
+   "fieldtype": "Tab Break",
+   "label": "Convictions & Penalties"
+  },
+  {
+   "fieldname": "prohibited_or_not",
+   "fieldtype": "Select",
+   "label": "1. Ordered to leave or prohibited from entering Botswana or any other country?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "prohibited_particulars",
+   "fieldtype": "Small Text",
+   "label": "If so, give particulars",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "column_break_enlnd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_no7ht",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "imprisonment",
+   "fieldtype": "Select",
+   "label": "2. Sentenced in any country to any period of imprisonment?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_kmokr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "imprisonment_particulars",
+   "fieldtype": "Small Text",
+   "label": "If so, give particulars",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "section_break_umx7z",
+   "fieldtype": "Tab Break",
+   "label": "Permit Details"
+  },
+  {
+   "fieldname": "give_reasons_for_applying_for_a_permit",
+   "fieldtype": "Small Text",
+   "label": "Give reasons for applying for a permit",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "state_the_period_for_which_a_permit_is_sought",
+   "fieldtype": "Data",
+   "label": "State the period for which a permit is sought"
+  },
+  {
+   "fieldname": "do_you_propose_to_take_up_employment_in_botswana",
+   "fieldtype": "Select",
+   "label": "Do you propose to take up employment in Botswana?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "if_so_please_complete_the_application_for_work_permit",
+   "fieldtype": "HTML",
+   "label": "If so, please complete the application for work permit.",
+   "options": "<br><b>If so, please complete the application for work permit</b>"
+  },
+  {
+   "fieldname": "section_break_cayot",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "if_not_what_are_your_reasons_for_applying_for_residence_permit",
+   "fieldtype": "Select",
+   "label": "If not, what are your reasons for applying for residence permit?",
+   "options": "\nDependant\nStudent\nImmigrant\nVoluntary\nMissionary"
+  },
+  {
+   "fieldname": "permit_renewal_details_section",
+   "fieldtype": "Section Break",
+   "label": "Permit Renewal Details"
+  },
+  {
+   "fieldname": "permit_renewal_table",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Details of Existing Permits",
+   "options": "Permit Renewal Details Table"
+  },
+  {
+   "fieldname": "how_do_you_intend_to_support_yourself_and_your_dependants",
+   "fieldtype": "Small Text",
+   "label": "How do you intend to support yourself and your dependants?",
+   "max_height": "35px"
+  },
+  {
+   "fieldname": "column_break_ijqfl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attach_proof",
+   "fieldtype": "Attach",
+   "label": "Attach Proof "
+  },
+  {
+   "fieldname": "section_break_h0j3y",
+   "fieldtype": "Tab Break",
+   "label": "Financial Support Details"
+  },
+  {
+   "fieldname": "declaration_section",
+   "fieldtype": "Tab Break",
+   "label": "Declaration"
+  },
+  {
+   "default": "0",
+   "fieldname": "declaration",
+   "fieldtype": "Check",
+   "label": "I declare that the information provided is true and correct"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "column_break_t7uge",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "spouse_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Spouse Details"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "birth_certificate",
+   "fieldtype": "Attach",
+   "label": "Birth Certificate"
+  },
+  {
+   "fieldname": "medical_report",
+   "fieldtype": "Attach",
+   "label": "Medical Report"
+  },
+  {
+   "fieldname": "section_break_z6bd4",
+   "fieldtype": "Section Break",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "column_break_dsmz3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_xhi8t",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "marriage_certificate",
+   "fieldtype": "Attach",
+   "label": "Marriage Certificate"
+  },
+  {
+   "fieldname": "section_break_ht7io",
+   "fieldtype": "Section Break",
+   "label": "Countries of Residence in the Last 10 Years"
+  },
+  {
+   "fieldname": "column_break_a0ktk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_56xdq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_qgfnn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_y5smj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_gf4ka",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ptlm0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Application Number",
+   "options": "RPA-.MM.-.YYYY.-.#####"
+  },
+  {
+   "fieldname": "line_break_1",
+   "fieldtype": "HTML",
+   "label": "Line Break 1",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_2",
+   "fieldtype": "HTML",
+   "label": "Line Break 2",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_3",
+   "fieldtype": "HTML",
+   "label": "Line Break 3",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_4",
+   "fieldtype": "HTML",
+   "label": "Line Break 4",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_5",
+   "fieldtype": "HTML",
+   "label": "Line Break 5",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_6",
+   "fieldtype": "HTML",
+   "label": "Line Break 6",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_7",
+   "fieldtype": "HTML",
+   "label": "Line Break 7",
+   "options": "<br><b>Have you or any of those accompanying you ever been convicted or penalized for the following:</b>"
+  },
+  {
+   "fieldname": "line_break_8",
+   "fieldtype": "HTML",
+   "label": "Line Break 8",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_9",
+   "fieldtype": "HTML",
+   "label": "Line Break 9",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_10",
+   "fieldtype": "HTML",
+   "label": "Line Break 10",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "line_break_11",
+   "fieldtype": "HTML",
+   "label": "Line Break 11",
+   "options": "<br>"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fetch_from": "user.email",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Email"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Application Date"
+  },
+  {
+   "fieldname": "payment_details_section",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Payment Details"
+  },
+  {
+   "default": "500",
+   "fieldname": "application_fee",
+   "fieldtype": "Currency",
+   "label": "Application Fee"
+  },
+  {
+   "default": "Stripe-IoT Communications",
+   "fieldname": "payment_gateway",
+   "fieldtype": "Link",
+   "label": "Payment Gateway",
+   "options": "Payment Gateway"
+  },
+  {
+   "default": "BWP",
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "payment_url",
+   "fieldtype": "Small Text",
+   "label": "Payment Url"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-06-13 15:42:55.611035",
+ "modified_by": "Administrator",
+ "module": "Residence Permit",
+ "name": "Residence Permit Application",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Officer",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Applicant",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

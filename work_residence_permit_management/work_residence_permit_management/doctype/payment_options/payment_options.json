@@ -1,0 +1,183 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-12 10:58:25.449007",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "mobile_wallet_section",
+  "orange_money",
+  "orange_money_html",
+  "column_break_k2m66",
+  "my_zaka",
+  "myzaka_html",
+  "column_break_rsnez",
+  "smega",
+  "smega_html",
+  "debitcredit_card_section",
+  "visa",
+  "visa_html",
+  "payment_information_section",
+  "permit_number",
+  "application_fee",
+  "currency",
+  "column_break_ftifl",
+  "payer_name",
+  "payer_surname",
+  "payer_email",
+  "column_break_wjfoe",
+  "reference_doctype",
+  "payment_url",
+  "payment_gateway"
+ ],
+ "fields": [
+  {
+   "fieldname": "mobile_wallet_section",
+   "fieldtype": "Section Break",
+   "label": "Mobile Wallet"
+  },
+  {
+   "fieldname": "orange_money",
+   "fieldtype": "Button",
+   "label": "Orange Money"
+  },
+  {
+   "fieldname": "orange_money_html",
+   "fieldtype": "HTML",
+   "label": "Orange Money HTML",
+   "options": "<img height=\"150\" src=\"https://iotcomms.co.bw/api/paymentGateway/orange_money.png\" width=\"250\">"
+  },
+  {
+   "fieldname": "column_break_k2m66",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_rsnez",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "smega",
+   "fieldtype": "Button",
+   "label": "Smega"
+  },
+  {
+   "fieldname": "smega_html",
+   "fieldtype": "HTML",
+   "label": "Smega HTML",
+   "options": "<img height=\"150\" src=\"https://iotcomms.co.bw/api/paymentGateway/smega.jpg\" width=\"200\">"
+  },
+  {
+   "fieldname": "debitcredit_card_section",
+   "fieldtype": "Section Break",
+   "label": "Debit/Credit Card"
+  },
+  {
+   "fieldname": "visa",
+   "fieldtype": "Button",
+   "label": "Visa"
+  },
+  {
+   "fieldname": "visa_html",
+   "fieldtype": "HTML",
+   "label": "Visa HTML",
+   "options": "<img src=\"https://iotcomms.co.bw/api/paymentGateway/visa_mastercard_americanexpress.jpg\">"
+  },
+  {
+   "fieldname": "payment_information_section",
+   "fieldtype": "Section Break",
+   "label": "Payment Information"
+  },
+  {
+   "fieldname": "permit_number",
+   "fieldtype": "Data",
+   "label": "Permit number"
+  },
+  {
+   "fieldname": "application_fee",
+   "fieldtype": "Data",
+   "label": "Application Fee"
+  },
+  {
+   "fieldname": "payer_name",
+   "fieldtype": "Data",
+   "label": "Payer Name"
+  },
+  {
+   "fieldname": "payer_surname",
+   "fieldtype": "Data",
+   "label": "Payer Surname"
+  },
+  {
+   "fieldname": "payer_email",
+   "fieldtype": "Data",
+   "label": "Payer email"
+  },
+  {
+   "fieldname": "reference_doctype",
+   "fieldtype": "Data",
+   "label": "Reference Doctype"
+  },
+  {
+   "fieldname": "payment_url",
+   "fieldtype": "Data",
+   "label": "Payment URL"
+  },
+  {
+   "default": "BWP",
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "payment_gateway",
+   "fieldtype": "Link",
+   "label": "Payment Gateway",
+   "options": "Payment Gateway"
+  },
+  {
+   "fieldname": "column_break_ftifl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wjfoe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "my_zaka",
+   "fieldtype": "Button",
+   "label": "MyZaka"
+  },
+  {
+   "fieldname": "myzaka_html",
+   "fieldtype": "HTML",
+   "label": "MyZaka HTML",
+   "options": "<img height=\"184\" src=\"https://iotcomms.co.bw/api/paymentGateway/my_zaka.jpg\" width=\"274\">"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-06-13 15:46:26.300668",
+ "modified_by": "Administrator",
+ "module": "Work Residence Permit Management",
+ "name": "Payment Options",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

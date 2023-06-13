@@ -1,0 +1,48 @@
+{
+ "charts": [
+  {
+   "chart_name": "Daily Work Permit Applications",
+   "label": "Daily Work Permit Applications"
+  }
+ ],
+ "content": "[{\"id\":\"v0No8vRxMT\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Daily Work Permit Applications\",\"col\":12}},{\"id\":\"rttQ1cGYB9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Zhv-odD2Og\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"QMsvVxVjLw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Work Permit Application\",\"col\":4}}]",
+ "creation": "2023-06-12 15:55:04.043391",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Work Permits",
+ "links": [],
+ "modified": "2023-06-13 14:00:48.966859",
+ "modified_by": "Administrator",
+ "module": "Work Permit",
+ "name": "Work Permits",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Officer"
+  },
+  {
+   "role": "Applicant"
+  }
+ ],
+ "sequence_id": 8.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Work Permit Application",
+   "link_to": "Work Permit Application",
+   "type": "DocType"
+  }
+ ],
+ "title": "Work Permits"
+}

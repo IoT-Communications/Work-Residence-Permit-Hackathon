@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-11 20:38:25.251481",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "child_age",
+  "child_gender",
+  "applying_for_residence"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "child_age",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Age (Years)"
+  },
+  {
+   "fieldname": "child_gender",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "\nMale\nFemale\nOther"
+  },
+  {
+   "fieldname": "applying_for_residence",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Applying for Residence?",
+   "options": "\nYes\nNo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-11 20:41:31.638713",
+ "modified_by": "Administrator",
+ "module": "Work Residence Permit Management",
+ "name": "Children Particulars Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

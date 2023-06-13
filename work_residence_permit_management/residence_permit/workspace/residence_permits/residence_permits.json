@@ -1,0 +1,48 @@
+{
+ "charts": [
+  {
+   "chart_name": "Daily Residence Permit Applications",
+   "label": "Daily Residence Permit Applications"
+  }
+ ],
+ "content": "[{\"id\":\"kO3vaLpPwQ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Daily Residence Permit Applications\",\"col\":12}},{\"id\":\"iv3jQWBg5-\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"DdyodEkUln\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"usdjn33siP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Residence Permit Application\",\"col\":4}}]",
+ "creation": "2023-06-12 15:56:54.436821",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "map",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Residence Permits",
+ "links": [],
+ "modified": "2023-06-13 14:00:48.888725",
+ "modified_by": "Administrator",
+ "module": "Residence Permit",
+ "name": "Residence Permits",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Officer"
+  },
+  {
+   "role": "Applicant"
+  }
+ ],
+ "sequence_id": 7.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Residence Permit Application",
+   "link_to": "Residence Permit Application",
+   "type": "DocType"
+  }
+ ],
+ "title": "Residence Permits"
+}

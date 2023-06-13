@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-11 18:14:37.262320",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "language_literacy",
+  "fluency",
+  "read_write"
+ ],
+ "fields": [
+  {
+   "fieldname": "language_literacy",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Language",
+   "options": "Languages"
+  },
+  {
+   "fieldname": "fluency",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Fluency",
+   "options": "\nBeginner\nIntermediate\nAdvanced"
+  },
+  {
+   "fieldname": "read_write",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Can Read & Write",
+   "options": "\nYes\nNo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-11 19:57:58.930149",
+ "modified_by": "Administrator",
+ "module": "Work Residence Permit Management",
+ "name": "Language Literacy Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

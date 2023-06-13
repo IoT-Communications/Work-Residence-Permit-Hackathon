@@ -1,0 +1,50 @@
+{
+ "cards": [
+  {
+   "card": "Pending Compliance Check-1"
+  },
+  {
+   "card": "Ready for Payment-1"
+  },
+  {
+   "card": "Paid-1"
+  },
+  {
+   "card": "Approved-1"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Monthly Applications - Work Permits",
+   "width": "Full"
+  },
+  {
+   "chart": "Application Type - Work Permits",
+   "width": "Half"
+  },
+  {
+   "chart": "Advertised Vacancies",
+   "width": "Half"
+  },
+  {
+   "chart": "Nationality - Work Permits",
+   "width": "Half"
+  },
+  {
+   "chart": "Gender - Work Permits",
+   "width": "Half"
+  }
+ ],
+ "creation": "2023-06-13 10:49:31.565105",
+ "dashboard_name": "Work Permits Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2023-06-13 13:47:32.366265",
+ "modified_by": "Administrator",
+ "module": "Work Permit",
+ "name": "Work Permits Dashboard",
+ "owner": "Administrator"
+}
